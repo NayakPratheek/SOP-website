@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4a261;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    height: 100px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+/* Carousel Styling */
+.carousel {
+  display: flex;
+  overflow-x: hidden; /* Hide content outside the view */
+  scroll-behavior: smooth; /* Smooth scrolling for manual and automatic scrolls */
+  padding:10px;
+  gap:30px;
+  border-radius:20px
+}
+
+.carousel-img {
+  flex-shrink: 0;
+  width: 35%; /* Each image takes the full width of the carousel container */
+  height:600px;
+  object-fit:carousel; /* Ensures images maintain their aspect ratio */
+}
+
+  
+  .video-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Video and Text Section */
+.video-text-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.video-container {
+    width: 25%; /* Video takes 25% of the width */
+}
+
+video {
+    width: 100%; /* Ensure the video fits its container */
+    border-radius: 10px;
+}
+
+.text-container {
+    width: 70%; /* Text takes the remaining space */
+    padding-left: 20px;
+}
+
+.text-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+
+/* Upcoming Events Video */
+.upcoming-events-video-container {
+    width: 25%; /* Make the video container take 80% of the page width */
+    margin: 20px auto; /* Center the container horizontally with margin */
+    text-align: center; /* Center-align the content inside */
+}
+
+.upcoming-events-video-container video {
+    width: 100%; /* Make the video fill the container width */
+    height: auto; /* Adjust height proportionally to maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners for a nicer look */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Optional: Add shadow for better aesthetics */
+}
+
+  
